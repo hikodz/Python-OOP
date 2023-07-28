@@ -12,7 +12,7 @@ class information():
         print(f'{self.name} is stupid')
 
 # make an instance of the class information
-create_object = information("Hamada", 25,"creater")
+create_object = information("Hamada", 25,"creator")
 
 # print the attributes of the instance
 print(create_object.name) #output : Hamada
