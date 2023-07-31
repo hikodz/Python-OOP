@@ -227,13 +227,3 @@ books_list = [
         'number_available ':6}
     }
 ]
-
-
-
-
-class Books():
-    pass
-
-
-class User():
-    pass
