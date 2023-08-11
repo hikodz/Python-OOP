@@ -127,6 +127,7 @@ def run():
                     print(class_used.Weather(first_city))
             else :
                 print(chalk.green(pyfiglet.figlet_format(text='HIKO DZ', font='slant')))
+                print(chalk.bgBlack(pyfiglet.figlet_format(text='Version 1.1', font='digital')))
                 print(chalk.red(pyfiglet.figlet_format(text='Enjoy Learning With Codezilla', font='digital')))
                 break
         except ValueError: 
