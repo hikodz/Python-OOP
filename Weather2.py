@@ -111,8 +111,8 @@ def run():
             elif user_choice == 2 :
                 print(class_used.Distance())
             elif user_choice == 3 : 
-                first_city = input(chalk.bgBlack('Enter city First city: ')).title()
-                second_city = input(chalk.bgBlack('Enter city Second city: ')).title()
+                first_city = input(chalk.bgBlack('Enter name First city: ')).title()
+                second_city = input(chalk.bgBlack('Enter name Second city: ')).title()
                 if first_city != second_city: 
                     check_first = class_used.Weather(first_city)
                     check_second = class_used.Weather(second_city)
